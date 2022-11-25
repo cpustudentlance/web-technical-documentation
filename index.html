@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <title>Fundamentals of Web Development</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Fundamentals of Web Development</h1>
+    </header>
+
+    <!-- HTML -->
+    <div class="row">
+      <div class="column" id="control" style="max-width: 25%;">
+        <button onclick="toggleHTML()">HTML</button>
+      </div>
+      <div class="column" id="html" style="background-color: rgb(202, 131, 0); display: none;">
+        <h1>What is HTML?</h1>
+        <ul>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CSS -->
+    <div class="row">
+      <div class="column" id="control" style="max-width: 25%;">
+        <button onclick="toggleCSS()">CSS</button>
+      </div>
+      <div class="column" id="css" style="background-color: rgb(41, 123, 246); display: none;">
+        <h1>What is CSS?</h1>
+        <ul>
+          <li>CSS stands for Cascading Style Sheets</li>
+          <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+          <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+          <li>External stylesheets are stored in CSS files</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <div class="row">
+      <div class="column" id="control" style="max-width: 25%;">
+        <button onclick="toggleJavascript()">Javascript</button>
+      </div>
+      <div class="column" id="javascript" style="background-color: rgb(237, 226, 10); display: none;">
+        <h1>What is Javascript?</h1>
+        <ul>
+          <li>JavaScript is the Programming Language for the Web.</li>
+          <li>JavaScript can update and change both HTML and CSS.</li>
+          <li>JavaScript can calculate, manipulate and validate data.</li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
